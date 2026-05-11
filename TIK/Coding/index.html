@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Belajar Box CSS</title>
+    <style>
+      /* Ini adalah bagian CSS untuk menghias kotak */
+      .kotak-profil {
+        background-color: rgb(0, 191, 255); /* Warna latar */
+        width: 800px; /* Lebar kotak */
+        padding: 20px; /* Jarak di dalam kotak */
+        border: 3px solid rgb(0, 0, 0); /* Garis pinggir */
+        border-radius: 15px; /* Membuat sudut melengkung */
+        text-align: center; /* Teks di tengah */
+        margin: 50px auto; /* Kotak berada di tengah halaman */
+        font-family: sans-serif;
+      }
+
+      .foto-dummy {
+        background-color: white;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 15px;
+        border-radius: 50%; /* Membuat lingkaran */
+        line-height: 100px; /* Agar teks di tengah lingkaran */
+        object-fit:cover;
+      }
+
+      img{
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 15px;
+        border-radius: 50%; /* Membuat lingkaran */
+        line-height: 100px; /* Agar teks di tengah lingkaran */
+      }
+
+      button {
+        background-color: rgb(210, 203, 2);
+        border-radius: 5px;
+        height: 50px;
+        width: 100px;
+      }
+
+      button:hover {
+        background-color: rgb(7, 156, 236);
+      }
+
+      button:active {
+        background-color: rgb(210, 203, 2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak-profil">
+      <div class="foto-dummy">
+        <img src="https://images.pexels.com/photos/3656087/pexels-photo-3656087.jpeg" >
+      
+      </div>
+      <h1>Muhammad Azka Rifqy El-Farras</h1>
+      <p>Siswa Kelas 8 SMPITABYFDS</p>
+      <button>About Me</button>
+    </div>
+  </body>
+</html>

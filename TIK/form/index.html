@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Membuat Form</title>
+    <style>
+        body {
+            background-image: url(17973908.jpg); 
+            background-size: cover;
+            font-family: sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .kotak-login {
+            background-color: rgb(255, 255, 255)  ;
+            width: 350px;
+            padding: 30px;
+            margin: 100px auto; /* Posisi di tengah */
+            border-radius: 10px;
+            text-align: center;
+            transition: all .5s ease;
+        }
+
+        .kotak-login:hover {
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+            transform: translateY(-5px);
+        }
+        /* CSS KHUSUS UNTUK KOTAK INPUT */
+        input {
+            width: 90%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        /* CSS KHUSUS UNTUK TOMBOL */
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #0866ff; /* Warna biru tombol sosmed */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(230, 207, 4);
+        }
+
+        button:active {
+            background-color:  #0866ff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="kotak-login">
+        <h2>Pendaftaran Akun Baru</h2>
+        
+        <form>
+            <input type="text" placeholder="What's your name?">
+            <input type="password" placeholder="Make your password!">
+            <input type="color" placeholder="Masukkan Nama Lengkap">
+            <input type="date" placeholder="Masukkan Kata Sandi">
+            <a href="berhasil.html">
+            <button type="button">Buat Akun</button>
+            </a>
+        </form>
+
+    </div>
+
+</body>
+</html>
